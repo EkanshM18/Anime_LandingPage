@@ -13,23 +13,23 @@ export default function Trending() {
 
         <div className="mt-10 flex flex-col aspect-ratio:3/2 object-fit:contain ">
         <div className="m-3">
-        <img className=""width={200} height={200} src={AnimeImage1}/>
-        <Item title="Attack on Titan" subtitle="Action" rate="9.8"/>
+        {/* <img className=""width={200} height={200} src={AnimeImage1}/> */}
+        <Item title="Attack on Titan" subtitle="Action" rate="9.8" image = <img className=""width={200} height={200} src={AnimeImage1}/>/>
         </div>
 
         <div className="m-3">
-        <img className=""width={300} height={300} src={AnimeImage2}/>
-        <Item title="My Hero Academia" subtitle="Superhero" rate="9.5"/>
+        {/* <img className=""width={300} height={300} src={AnimeImage3}/> */}
+        <Item title="My Hero Academia" subtitle="Superhero" rate="9.5" image = <img className=""width={300} height={300} src={AnimeImage3}/>/>
         </div>
 
         <div className="m-3">
-        <img className=""width={300} height={300} src={AnimeImage3}/>
-        <Item title="Demon Slayer" subtitle="Supernatural" rate="9.7"/>
+        {/* <img className=""width={300} height={300} src={AnimeImage2}/> */}
+        <Item title="Demon Slayer" subtitle="Supernatural" rate="9.7" image= <img className=""width={300} height={300} src={AnimeImage2}/>/>
         </div>
 
         <div className="m-3">
-        <img className=""width={300} height={300} src={AnimeImage4}/>
-        <Item title="One Piece" subtitle="Adventure" rate="9.6"/>
+        {/* <img className=""width={300} height={300} src={AnimeImage4}/> */}
+        <Item title="One Piece" subtitle="Adventure" rate="9.6" iamge = <img className=""width={300} height={300} src={AnimeImage4}/>/>
         </div>
         
         </div>

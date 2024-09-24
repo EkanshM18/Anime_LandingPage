@@ -7,7 +7,14 @@ import { StarIcon } from "lucide-react";
 export default function Item(props){
     return(
       <div className="p-4">
+        <div>
+        {props.image}
+        
+        </div>
+
         <div className="font-bold text-xl">{props.title}</div>
+
+        
         <div>{props.subtitle}</div>
         <div className="flex flex-row">
             {
